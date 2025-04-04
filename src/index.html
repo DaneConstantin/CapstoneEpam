@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/nav.css">
+   <script src="./scripts/slider.js" defer></script>
+   <script src="./scripts/mobileNav.js" defer></script>
+   
+   </head>
+<body>
+    <header>
+        <nav class="topnav" id="myTopnav">
+            <ul class="mainMenu">
+                <li class="logo"><a href="./index.html"><img src="utils/images/EstatesLogo.png" alt="logo"></a></li>
+                <li><a href="./index.html">Home</a></li>
+              
+                <li class="dropdown">
+                    <a href="#">Gallery <span class="arrow">›</span></a>
+                    <ul class="subMenu">
+                        <li><a href="./gallery.html?type=apartment">Apartments</a></li>
+                        <li><a href="./gallery.html?type=house">Houses</a></li>
+                        <li><a href="./gallery.html?type=cabin">Cabins</a></li> 
+                        <li><a href="./gallery.html">All Properties</a></li>               
+                    </ul>
+                </li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li class="menu-toggle">
+                    <a  onclick="myFunction()">
+                        ☰
+                    </a>
+                </li> 
+            </ul>
+        </nav>
+    </header>
+    <main>
+      
+            <section class="slideshow-container">
+
+              
+                <div class="mySlides fade">
+                  <img loading="lazy" src="utils/images/cabinBig.png" style="width:100%">
+                </div>
+              
+                <div class="mySlides fade">
+                  <img loading="lazy" src="utils/images/house.png" style="width:100%">
+                </div>
+              
+                <div class="mySlides fade">
+                  <img loading="lazy" src="utils/images/apartment.png" style="width:100%">
+                </div>
+                <div class="container">
+                    <h2>Welcome to EPAM Estates</h2>
+                    <p class="intro-text">
+                        Discover your dream property with our extensive collection of homes, apartments, and exclusive real estate discounts.
+                    </p>
+                    
+                   
+                </div>
+               
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+
+             
+            </section>
+      
+        <section class="features-section">
+            <div class="container">
+        <div class="features">
+            <div class="feature-card">
+                <h3>Top Locations</h3>
+                <p>Find homes in the best neighborhoods.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Expert Advice</h3>
+                <p>Get guidance from real estate pros.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Trusted Listings</h3>
+                <p>All properties are verified for you.</p>
+            </div>
+            
+        </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 EPAM demo project. Dan-Constantin Guita</p>
+    </footer>
+</body>
+</html>

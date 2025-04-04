@@ -1,0 +1,13 @@
+{
+  "name": "keya-house",
+  "version": "1.0.0",
+  "description": "capstone project for epam",
+  "scripts": {
+    "compile": "sass --watch styles:styles"
+  },
+  "author": "dan.guita",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.86.0"
+  }
+}

@@ -1,0 +1,279 @@
+[
+    {
+        "id": 1,
+        "title": "Modern City Apartment",
+        "address": "Strada Nicolae Titulescu 12, Bucharest",
+        "description": "Live like a king in this 1-bed apartment with city views. Perfect for city people!",
+        "price": 125000,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "size": 750,
+        "type": "apartment",
+        "features": [
+            "Balcony",
+            "Gym",
+            "Pool",
+            "Security "
+        ],
+        "image": "./utils/images/gallery/apartment-4.png",
+        "latitude": 44.4523,
+        "longitude": 26.0797
+    },
+    {
+        "id": 2,
+        "title": "Family Home",
+        "address": "Bulevardul 1 Decembrie 1918 34, Cluj-Napoca",
+        "description": "4-bed house with a big backyard. Perfect for the whole family, plus your dog!",
+        "price": 225000,
+        "bedrooms": 4,
+        "bathrooms": 2.5,
+        "size": 2200,
+        "type": "house",
+        "features": [
+            "Backyard",
+            "Garage",
+            "Fireplace ",
+            "Basement "
+        ],
+        "image": "./utils/images/gallery/house-4.png",
+        "latitude": 46.7700,
+        "longitude": 23.5710
+    },
+    {
+        "id": 3,
+        "title": "Rustic Cabin",
+        "address": "Strada Mihai Eminescu 7, Sinaia",
+        "description": "2-bed cabin with a porch for your morning coffee and bear-watching.",
+        "price": 137500,
+        "bedrooms": 2,
+        "bathrooms": 1.5,
+        "size": 1300,
+        "type": "cabin",
+        "features": [
+            "Waterfront",
+            "Fire Pit",
+            "Deck",
+            "Storage"
+        ],
+        "image": "./utils/images/gallery/cabin-4.png",
+        "latitude": 45.3500,
+        "longitude": 25.5333
+    },
+    {
+        "id": 4,
+        "title": "Cozy Studio",
+        "address": "Calea Victoriei 23, Timisoara",
+        "description": "Studio in the arts district – perfect for creatives who never sleep.",
+        "price": 87500,
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "size": 500,
+        "type": "apartment",
+        "features": [
+            "Hardwood floors",
+            "High ceilings",
+            "Pet-friendly "
+        ],
+        "image": "./utils/images/gallery/apartment-2.png",
+        "latitude": 45.7489,
+        "longitude": 21.2087
+    },
+    {
+        "id": 5,
+        "title": "Ranch House",
+        "address": "Bulevardul Republicii 56, Iasi",
+        "description": "3-bed ranch with a renovated kitchen. Perfect for cooking and pretending you're on a farm.",
+        "price": 187500,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "size": 1800,
+        "type": "house",
+        "features": [
+            "Single-story living",
+            "Garden",
+            "Private Patio"
+        ],
+        "image": "./utils/images/gallery/house-3.png",
+        "latitude": 47.1585,
+        "longitude": 27.6014
+    },
+    {
+        "id": 6,
+        "title": "Mountain Cabin",
+        "address": "Strada Principala 12, Poiana Brasov",
+        "description": "3-bedroom mountain cabin with amazing cliff views.",
+        "price": 287500,
+        "bedrooms": 3,
+        "bathrooms": 2.5,
+        "size": 2000,
+        "type": "cabin",
+        "features": [
+            "Private Sauna",
+            "Hiking Trails",
+            "Fireplace",
+            "Whiskey Stash"
+        ],
+        "image": "./utils/images/gallery/cabin-2.png",
+        "latitude": 45.5891,
+        "longitude": 25.5568
+    },
+    {
+        "id": 7,
+        "title": "Historic Townhouse",
+        "address": "Strada Sfintii Apostoli 3, Brasov",
+        "description": "2-bedroom townhouse with historic details and modern updates.",
+        "price": 212500,
+        "bedrooms": 2,
+        "bathrooms": 1.5,
+        "size": 1600,
+        "type": "house",
+        "features": [
+            "Historic",
+            "Fireplace",
+            "Garden",
+            "Hardwood Floors"
+        ],
+        "image": "./utils/images/gallery/house-2.png",
+        "latitude": 45.6427,
+        "longitude": 25.5887
+    },
+    {
+        "id": 8,
+        "title": "Modern Loft",
+        "address": "Calea Bucurestilor 45, Ploiesti",
+        "description": "1-bedroom loft with exposed brick and an open floor plan.",
+        "price": 160000,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "size": 950,
+        "type": "apartment",
+        "features": [
+            "Loft",
+            "Exposed Brick",
+            "Open Floor Plan",
+            "Industrial Style"
+        ],
+        "image": "./utils/images/gallery/apartment-3.png",
+        "latitude": 44.9461,
+        "longitude": 26.0367
+    },
+    {
+        "id": 9,
+        "title": "Lakefront House",
+        "address": "Strada Lacului 10, Constanta",
+        "description": "5-bedroom house with a private dock and lake views.",
+        "price": 425000,
+        "bedrooms": 5,
+        "bathrooms": 3.5,
+        "size": 3500,
+        "type": "house",
+        "features": [
+            "Lakefront",
+            "Dock",
+            "Deck",
+            "Gourmet Kitchen"
+        ],
+        "image": "./utils/images/gallery/house-1.png",
+        "latitude": 44.1598,
+        "longitude": 28.6348
+    },
+    {
+        "id": 10,
+        "title": "Log Cabin",
+        "address": "Strada Cabana 5, Retezat",
+        "description": "3-bedroom log cabin with a private hot tub and a moose-friendly porch.",
+        "price": 337500,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "size": 2500,
+        "type": "cabin",
+        "features": [
+            "Outdoor Jacuzzi",
+            "Secure Porch",
+            "Solar Power",
+            "Rocking Chairs"
+        ],
+        "image": "./utils/images/gallery/cabin-1.png",
+        "latitude": 45.3833,
+        "longitude": 22.8833
+    },
+    {
+        "id": 11,
+        "title": "Garden Apartment",
+        "address": "Strada Gradinilor 2, Sibiu",
+        "description": "2-bedroom garden level apartment with a private patio and yard access.",
+        "price": 112500,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "size": 850,
+        "type": "apartment",
+        "features": [
+            "Garden Level",
+            "Private Patio",
+            "Yard Access",
+            "Updated Bath"
+        ],
+        "image": "./utils/images/gallery/apartment-1.png",
+        "latitude": 45.7983,
+        "longitude": 24.1469
+    },
+    {
+        "id": 12,
+        "title": "Mountain View Cabin",
+        "address": "Strada Muntelui 15, Predeal",
+        "description": "2-bedroom cabin with mountain views and a wood-burning fireplace.",
+        "price": 147500,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "size": 1100,
+        "type": "cabin",
+        "features": [
+            "Mountain View",
+            "Fireplace",
+            "Deck",
+            "Wooden Floors"
+        ],
+        "image": "./utils/images/gallery/cabin-5.png",
+        "latitude": 45.5033,
+        "longitude": 25.5751
+    },
+    {
+        "id": 13,
+        "title": "Urban Micro Apartment",
+        "address": "Strada Unirii 10, Arad",
+        "description": "Micro apartment in a prime location with clever storage solutions.",
+        "price": 75000,
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "size": 350,
+        "type": "apartment",
+        "features": [
+            "Micro Living",
+            "Central Location",
+            "Low Maintenance"
+        ],
+        "image": "./utils/images/gallery/apartment-5.png",
+        "latitude": 46.1865,
+        "longitude": 21.3122
+    },
+    {
+        "id": 14,
+        "title": "Golf Course Villa",
+        "address": "Bulevardul Golf 20, Mamaia",
+        "description": "4-bedroom villa overlooking the golf course with indoor-outdoor living spaces.",
+        "price": 375000,
+        "bedrooms": 4,
+        "bathrooms": 3.5,
+        "size": 3200,
+        "type": "house",
+        "features": [
+            "Golf Course",
+            "Pool",
+            "Outdoor Kitchen",
+            "Home Office"
+        ],
+        "image": "./utils/images/gallery/house-5.png",
+        "latitude": 44.2419,
+        "longitude": 28.6289
+    }
+]

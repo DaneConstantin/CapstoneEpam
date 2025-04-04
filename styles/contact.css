@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  margin: 0;
+  font-family: Urbanist, sans-serif;
+  color: #0d2438;
+  background-color: #f5f5f5;
+}
+body a {
+  text-decoration: none;
+  color: #0d2438;
+}
+
+footer {
+  background-color: #0d2438;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.contact-page {
+  padding-top: 80px;
+  min-height: calc(100vh - 60px);
+  background-color: #f5f5f5;
+}
+.contact-page .contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.contact-page .contact-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #0d2438;
+}
+.contact-page .contact-container .contact-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+@media (max-width: 768px) {
+  .contact-page .contact-container .contact-content {
+    grid-template-columns: 1fr;
+  }
+}
+.contact-page .contact-container .contact-info {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.contact-page .contact-container .contact-info h2 {
+  color: #0d2438;
+  margin-bottom: 1rem;
+}
+.contact-page .contact-container .contact-info .contact-details {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.contact-page .contact-container .contact-info .contact-details .detail h3 {
+  color: #0d2438;
+  margin-bottom: 0.5rem;
+}
+.contact-page .contact-container .contact-info .contact-details .detail p {
+  color: #555;
+  margin: 0;
+}
+.contact-page .contact-container .contact-info .contact-details .detail a {
+  color: #555;
+  text-decoration: none;
+}
+.contact-page .contact-container .contact-info .contact-details .detail a:hover {
+  color: #0d2438;
+}
+.contact-page .contact-container .contact-map {
+  height: 400px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 600px) {
+  .contact-page .contact-container {
+    padding: 1rem;
+  }
+}
+
+/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - EPAM Estates</title>
+    <link rel="stylesheet" href="../styles/nav.css">
+    <link rel="stylesheet" href="../styles/gallery.css">
+    <link rel="stylesheet" href="../styles/singleProperty.css">
+    <script src="./scripts/mobileNav.js" defer></script>
+    <script src="./scripts/singleProperty.js" defer></script>
+
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="topnav" id="myTopnav">
+            <ul class="mainMenu">
+                <li class="logo"><a href="./index.html"><img src="utils/images/EstatesLogo.png" alt="logo"></a></li>
+                <li><a href="./index.html">Home</a></li>
+              
+                <li class="dropdown">
+                    <a href="#">Gallery <span class="arrow">›</span></a>
+                    <ul class="subMenu">
+                        <li><a href="./gallery.html?type=apartment">Apartments</a></li>
+                        <li><a href="./gallery.html?type=house">Houses</a></li>
+                        <li><a href="./gallery.html?type=cabin">Cabins</a></li> 
+                        <li><a href="./gallery.html">All Properties</a></li>               
+                    </ul>
+                </li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li class="menu-toggle">
+                    <a  onclick="myFunction()">
+                        ☰
+                    </a>
+                </li> 
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="property-details">
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2025 EPAM demo project. Dan-Constantin Guita</p>
+    </footer>
+
+    
+</body>
+</html>
